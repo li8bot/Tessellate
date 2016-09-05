@@ -1,0 +1,19 @@
+div.img_container
+{
+	height: 100vh;
+	width: auto;
+	background-repeat:no-repeat;
+    background-position:center;
+    background-size: auto 100%;
+    align-content: center;
+	background-image: url(https://github.com/Rishabhmishra328/Tangram/blob/master/background_complete.png?raw=true);
+}
+div.form_container
+{
+	height: 100%;
+	width: 100%;
+    background-size: auto 80%;
+	background-repeat:no-repeat;
+	background-position: center;
+    background-image: url(https://raw.githubusercontent.com/Rishabhmishra328/Tangram/master/only_form.png?token=ADoh7zTJWpnNigYmpAriZNIkdKKJ4oRfks5X0HKAwA%3D%3D);
+}
