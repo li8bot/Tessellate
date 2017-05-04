@@ -1,9 +1,9 @@
 body{
     width: auto;
     height: 100vh;
-    background: url(../bg.png);
+    background: url("https://github.com/adhesh3/Tangram/blob/master/bg.png?raw=true");
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 .div-wrapper {
