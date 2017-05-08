@@ -46,7 +46,7 @@
       		width: 100%;
       		text-align: center;
       		color: #000;
-		z-index: 3;
+      		z-index: 3;
       	}
       	.comingsoon_tag {
       		position: relative;
@@ -84,10 +84,6 @@
 			font-size: 120%;
 			color: #CD5C5C;
 		}
-		.navbar {
-			background: transparent;
-			border-color: transparent;
-		}
 		#contact_btn {
 			font-size: 120%;
 			background-color: transparent;
@@ -103,10 +99,6 @@
 		.logo-brand-img{
 			margin-top: 10px;
 			margin-left: 25px;
-		}
-		.navbar-header{
-			margin-left: 0px !important;
-			margin-right: 0px !important;
 		}
 		.non-bootstrap-a-tag{
 			margin: 0px !important;
@@ -127,16 +119,55 @@
 			}
 			.logo-brand-img{
 				z-index: 0;
-				margin-top:30px;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
+				margin-top:25%;
+				width: 60%;
+				height: auto;
+				margin-left: 20%;
+				margin-right: 20%;
 			}
 			#contact_btn{
 				visibility: hidden;
 			}
+			.comingsoon_tag {
+				position: absolute;
+				z-index:2;
+				top:225px;
+				width:40%;
+				padding-top: 4%;
+				max-width: 250px;
+				display: block;
+				margin-left: 30%;
+				margin-right: 30%;
+			}
 		}
-	</style>
+		@media only screen and (max-device-height: 512px) {
+			.logo-brand-img{
+				z-index: 0;
+				margin-top:30px;
+				width: 30%;
+				height: auto;
+				display: block;
+				margin-left: 35%;
+				margin-right: 35%;
+			}
+			.comingsoon_tag {
+				position: relative;
+				z-index:2;
+				top:75px;
+				width:40%;
+				padding-top: 4%;
+				max-width: 250px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+		  /*font-size: 25px;
+		  letter-spacing: 10px;*/
+		}
+		#contact_btn{
+			visibility: hidden;
+		}
+	}
+</style>
 
 </head>
 
@@ -151,28 +182,19 @@
 		</div>
 	</div>
 -->	
-<nav class="navbar transparent navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<a href="#"><img src="logo_white.png" class="logo-brand-img" height=50 width=150></a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<ul>
-				<li><a href="#page_footer" class="non-bootstrap-a-tag"><button type="button" id="contact_btn" class=" btn btn-round">Contact</button></a></li>
-			</ul>
-		</div>
-	</div>
-</nav>
 <div class="bgimg-1">
+
+	<div class="container">
+		<a href="#"><img src="logo_white.png" class="logo-brand-img" height=50 width=150></a>
+		<a href="#page_footer" class="non-bootstrap-a-tag"><button type="button" id="contact_btn" class=" btn btn-round">Contact</button></a>
+	</div>
+
 	<div class="caption">
-		  	<!--<div>
-		  		<img src="logo.png" class="logo">
-		  	</div>-->
 		  	<div>
 		  		<img src="comingsoon.png" class="comingsoon_tag">
 		  	</div>
-	</div>
-</div>
+		  </div>
+		</div>
 
 		<div class="aboutus">
 			<span><h3>About us...</h3></span>
