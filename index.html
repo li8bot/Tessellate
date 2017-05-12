@@ -7,12 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head
     content must come *after* these tags -->
     <title>Tangram</title>
-    <link rel="icon" type="image/png" href="./img/app_icon.ico" />
+    <link rel="icon" type="image/png" href="./img/icon.ico" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!--<link href="css/bootstrap-social.css" rel="stylesheet">-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,167 +21,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-      <!--<link rel="stylesheet" href="./css/design.css">-->
-
-      <style>
-      	body,html{
-      		height: 100%;	
-      		margin: 0;
-      	}
-      	.bgimg-1 {
-      		position: relative;
-      		opacity: 0.85;
-      		background-attachment: fixed;
-      		background-position: center;
-      		background-repeat: no-repeat;
-      		background-size: cover;
-      		background-image: url("bg.png");
-      		min-height: 100%;
-      		z-index: 1;
-      	}
-      	.caption {
-      		position: absolute;
-      		left: 0;
-      		top: 50%;
-      		width: 100%;
-      		text-align: center;
-      		color: #000;
-      		z-index: 3;
-      	}
-      	.comingsoon_tag {
-      		position: relative;
-      		z-index:2;
-      		top:150px;
-      		width:40%;
-      		padding-top: 4%;
-      		max-width: 250px;
-      		display: block;
-      		margin-left: auto;
-      		margin-right: auto;
-		  /*font-size: 25px;
-		  letter-spacing: 10px;*/
-		}
-		.container{
-			padding-left: 0px;
-			padding-right: 25px;
-			width:100%;
-		}
-		.aboutus {
-			font: 400 15px/1.8 "Lato", sans-serif;
-			color: #777;
-			background-color:white;
-			text-align:center;
-			padding:50px 50px;
-		}
-		.row-footer {
-			font: "Lato", sans-serif;
-			color:white;
-			background-color:#403131;
-			font-size: 90%;	
-			margin: 0px;
-		}
-		.contact_survey {
-			font-size: 120%;
-			color: #CD5C5C;
-		}
-		#contact_btn {
-			font-size: 120%;
-			background-color: transparent;
-			border: 2px solid #fff;
-			color: #fff;
-			border-radius: 25px;
-			float: right;
-			margin-top: 15px;
-			margin-bottom: : 5px;
-			padding-top: 3px;
-			padding-bottom: 3px;
-		}
-		.logo-brand-img{
-			margin-top: 10px;
-			margin-left: 25px;
-		}
-		.non-bootstrap-a-tag{
-			margin: 0px !important;
-		}
-		.footer_info_container {
-			margin-left: 25px;
-		}
-		a:link{
-			color: white;
-		}
-		a:hover{
-			color: cyan;
-		}
-		/* Turn off parallax scrolling for tablets and phones */
-		@media only screen and (max-device-width: 1024px) {
-			.bgimg-1 {
-				background-attachment: scroll;
-			}
-			.logo-brand-img{
-				z-index: 0;
-				margin-top:15%;
-				width: 60%;
-				height: auto;
-				margin-left: 20%;
-				margin-right: 20%;
-			}
-			#contact_btn{
-				visibility: hidden;
-			}
-			.comingsoon_tag {
-				position: absolute;
-				z-index:2;
-				top:200px;
-				width:40%;
-				padding-top: 4%;
-				max-width: 250px;
-				display: block;
-				margin-left: 30%;
-				margin-right: 30%;
-			}
-		}
-		@media only screen and (max-device-height: 512px) {
-			.logo-brand-img{
-				z-index: 0;
-				margin-top:30px;
-				width: 30%;
-				height: auto;
-				display: block;
-				margin-left: 35%;
-				margin-right: 35%;
-			}
-			.comingsoon_tag {
-				position: relative;
-				z-index:2;
-				top:75px;
-				width:40%;
-				padding-top: 4%;
-				max-width: 250px;
-				display: block;
-				margin-left: auto;
-				margin-right: auto;
-		  /*font-size: 25px;
-		  letter-spacing: 10px;*/
-		}
-		#contact_btn{
-			visibility: hidden;
-		}
-	}
-</style>
+      <link rel="stylesheet" href="./css/design.css">
 
 </head>
 
 <body>
-<!--
-	<div style="height: 100%;width:100%">
-		
-		<img src="comingsoon.png" style="width:80%;padding-top: 6%;max-width: 600px;display: block;margin-left: auto;margin-right: auto;">
-		
-		<div style="position:absolute;bottom: 0;width: 100%;margin-bottom:72px;display: block;margin-left: auto;margin-right: auto;">
-			<img src="logo.png" style="width:80%;max-width: 300px;display: block;margin-left: auto;margin-right: auto;vertical-align: middle;min-width: 120px;">
-		</div>
-	</div>
--->	
+
 <div class="bgimg-1">
 
 	<div class="container">
@@ -190,11 +35,11 @@
 	</div>
 
 	<div class="caption">
-		  	<div>
-		  		<img src="comingsoon.png" class="comingsoon_tag">
-		  	</div>
-		  </div>
-		</div>
+	  	<div>
+	  		<img src="comingsoon.png" class="comingsoon_tag">
+	  	</div>
+	</div>
+</div>
 
 		<div class="aboutus">
 			<span><h3>About us...</h3></span>
@@ -215,26 +60,15 @@
 							<i class="fa fa-envelope"></i>:<a class="contact_mail" href="mailto:tangram.labs@hotmail.com"> tangram.labs@hotmail.com</a>
 						</address>
 					</div>
-                <!--<div class="col-xs-12 col-sm-4">
-                    <div class="nav navbar-nav" style="padding: 40px 10px;">
-                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>-->
-                <div class="col-xs-12">
-                	<p align=center>© 2017 Tangram. All rights reserved. </p>
-                </div>
-            </div>
-        </div>
+	                <div class="col-xs-12">
+	                	<p align=center>© 2017 Tangram. All rights reserved. </p>
+	                </div>
+            	</div>
+        	</div>
     </footer>
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <!--<script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>-->
 
 </body>
 </html>
-
