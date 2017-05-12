@@ -1,19 +1,143 @@
-body{
-    width: auto;
-    height: 100vh;
-    background: url("https://github.com/adhesh3/Tangram/blob/master/bg.png?raw=true");
-    background-position: center;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
+body,html{
+    height: 100%;   
+    margin: 0;
 }
-.div-wrapper {
+.bgimg-1 {
     position: relative;
-    height: 300px;
-    width: 300px;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../bg.png");
+    min-height: 100%;
+    z-index: 1;
 }
-
-.div-wrapper img {
+.caption {
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    z-index: 3;
+}
+.comingsoon_tag {
+    position: relative;
+    z-index:2;
+    top:150px;
+    width:40%;
+    padding-top: 4%;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /*font-size: 25px;
+  letter-spacing: 10px;*/
+}
+.container{
+    padding-left: 0px;
+    padding-right: 25px;
+    width:100%;
+}
+.aboutus {
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 50px;
+}
+.row-footer {
+    font: "Lato", sans-serif;
+    color:white;
+    background-color:#403131;
+    font-size: 90%; 
+    margin: 0px;
+}
+.contact_survey {
+    font-size: 120%;
+    color: #CD5C5C;
+}
+#contact_btn {
+    font-size: 120%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: : 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.logo-brand-img{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.non-bootstrap-a-tag{
+    margin: 0px !important;
+}
+.footer_info_container {
+    margin-left: 25px;
+}
+a:link{
+    color: white;
+}
+a:hover{
+    color: cyan;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+    .logo-brand-img{
+        z-index: 0;
+        margin-top:15%;
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #contact_btn{
+        visibility: hidden;
+    }
+    .comingsoon_tag {
+        position: absolute;
+        z-index:2;
+        top:200px;
+        width:40%;
+        padding-top: 4%;
+        max-width: 250px;
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+@media only screen and (max-device-height: 512px) {
+    .logo-brand-img{
+        z-index: 0;
+        margin-top:30px;
+        width: 30%;
+        height: auto;
+        display: block;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .comingsoon_tag {
+        position: relative;
+        z-index:2;
+        top:75px;
+        width:40%;
+        padding-top: 4%;
+        max-width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  /*font-size: 25px;
+  letter-spacing: 10px;*/
+}
+#contact_btn{
+    visibility: hidden;
+}
 }
